@@ -1,6 +1,7 @@
   index.html
     after index.js is processed
       ✓ no longer has DOM node 'main#main'
-      1) has a 'newHeader' variable that points to an <h1> node
+      ✓ has a 'newHeader' variable that points to an <h1> node
+      1) the 'newHeader' variable that points to the <h1> node has an id of 'victory'
 
-  1 passing (275ms)
+  2 passing (285ms)
