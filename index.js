@@ -1,4 +1,5 @@
 // Write your code here!
+// YOUR-NAME is the champion
 
 // takes main out
 const main = document.getElementsByTagName("main")[0];
