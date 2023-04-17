@@ -1,0 +1,16 @@
+
+> javascript-lab@1.0.0 test
+> mocha -R mocha-multi --timeout 5000 --reporter-options spec=-,json=.results.json --bail
+
+
+
+  index.html
+    after index.js is processed
+      ✓ no longer has DOM node 'main#main'
+      ✓ has a 'newHeader' variable that points to an <h1> node
+      ✓ the 'newHeader' variable that points to the <h1> node has an id of 'victory'
+      ✓ the 'newHeader' variable that points to the <h1> node with an id of 'victory' has the text "YOUR-NAME is the champion" (with your name in place of YOUR-NAME) inside it
+
+
+  4 passing (270ms)
+
